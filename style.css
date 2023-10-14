@@ -1,0 +1,148 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.city-cards{
+      display: flex;
+      justify-content: space-between;
+    margin-left: 7%;
+    margin-right: 7%;
+    gap: 24px;
+}
+#trip{
+    margin-left: 7%;
+    }
+
+.city-card{
+    width: 302px;
+    height: 400px;
+}
+
+.card-top{
+    background-color: rgba(196, 196, 196, 1);
+}
+.card-bottom{
+    background-color:rgba(204, 45, 74, 1);
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7%;
+    margin-right: 7%;
+    gap:24px
+}
+.top-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.nav-bar{
+    width: 83%;
+    display: flex;
+    margin-left: 7%;
+    margin-right: 7%;
+    justify-content: space-between;
+}
+.nav-middle{
+    color: white;
+    display: flex;
+    gap: 24px;
+}
+.nav-last{
+    color: white;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.menu-profile{
+    width: fit-content;
+    height: fit-content;
+    padding: 3px;
+}
+.search{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 848px;
+    border-radius: 20px;
+    padding: 5px;
+}
+.blocks{
+display: flex;
+flex-direction: column;
+gap: 5px;
+border-left: 2px solid rgba(229, 231, 235, 1);
+padding-left: 10px ;
+}
+.blocks>p{
+    padding: 0%;
+    margin: 0%;
+}
+
+.pre-footer{
+    margin-left: 7%;
+    margin-right: 7%;
+    gap: 30px;
+}
+.subtitle{
+    display: flex;
+    justify-content: space-between;
+}
+.place{
+    display: flex;
+    flex-direction: column;
+}
+.tab-bar>ul{
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    padding: 0%;
+}
+.footer{
+    width: 100%;
+}
+.footer-card{
+    width: 304px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 7%;
+    margin-right: 7%; */
+    margin-bottom: 3%;
+}
+
+.footer-card>ul{
+padding: 0%;
+}
+.footer-card>ul>li{
+    list-style-type: none;
+    margin: 15px;
+    color: rgba(75, 85, 99, 1);
+    padding: 0px;
+}
+.footer-card>ul>li>h5{
+    color: black;
+}
+
+.footer2-container{
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 7%;
+    margin-right: 7%; */
+}
+.footer2-card{
+    display: flex;
+}
+.footer2-card>ul{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    color: rgba(75, 85, 99, 1);
+}
+.footer2-card>ul>li{
+    margin-left: 20px;
+}
