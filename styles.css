@@ -1,0 +1,42 @@
+.s-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-mid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-right{
+    display: flex;
+    justify-content: space-between;
+}
+.profile{
+    display: flex;
+    align-items: center;
+
+}
+.cardsContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap : 10px;
+}
+.details{
+    width:100% ;
+    /* height:100%; */
+    margin: 3%;
+}
+.hotel-imgs{
+    margin: 3%;
+}
+.amenities>ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ratings{
+    display: flex;
+
+}
